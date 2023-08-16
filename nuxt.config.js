@@ -19,12 +19,12 @@ export default {
       { name: 'keywords', content: '寶輇車業,超跑托運,拖救達人,BC HAUL,雙鷗翼透明車廂' },
       { hid: 'og:title', property: 'og:title', content: '寶輇車業｜BC HAUL' },
       { hid: 'og:description', name: 'og:description', content: '寶輇車業-超跑托運、拖救達人、五星感受。' },
-      // { name: 'format-detection', content: 'telephone=no' },
-      // {
-      //   hid: 'og:image',
-      //   property: 'og:image',
-      //   content: '/image/pc/main/shareImg.png',
-      // },
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/image/pc/main/shareImg.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
